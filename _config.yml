@@ -12,17 +12,7 @@ plugins:
 markdown: kramdown
 
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: text
-    span:
-      default_lang: text
-      line_numbers: false
-    block:
-      default_lang: text
-      # line_numbers: false
-      # start_line: 1
+  parse_block_html: true
 
 collections:
   pages:
